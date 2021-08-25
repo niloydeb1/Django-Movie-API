@@ -1,5 +1,6 @@
 # Django-Movie-API
 
+## Description:
 * Show All Movie Information:
 Every movie information can be retrieved using the URL: "localhost/api/movie-list". All the movie information presents in the database will be shown in JSON format.
 * Search Specific Movie:
@@ -15,7 +16,7 @@ For Example:
   "movie_id": 1 
 }
 
-Notes:
+## Notes:
 1. You can change database info from "movie-database/settings.py" file.
 2. Create a local database and run "python manage.py makemigrations" & "python manage.py migrate" commands in the terminal to migrate model into database.
 3. URL patterns are mentioned in "api/urls.py"
