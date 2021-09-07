@@ -1,6 +1,6 @@
 # Django-Movie-API
 
-A simple **Django REST API project** that provides movie information. The information is retrieved from https://www.omdbapi.com/ *(OMDb - an OPEN RESTful API web service)*, stored in the database and displayed to the **Django Admin Site**. Multiple comments on movies can also be added.
+A simple Django REST API project that provides movie information. It retrieves the information from https://www.omdbapi.com (an OPEN RESTful API web service), stores it in the database, and displays it to the Django Admin Site. Comments on the movies can also be added.
 
 ## Description:
 * **Show All Movie Information:**  
